@@ -8,24 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="lib-container"></p>
+    <h1>Francesco's Library</h1>
     <form id="form" action="">
         <label for="author">Author</label>
         <input type="text" id="author" name="author">
-
+        
         <label for="title">Title</label>
         <input type="text" id="title" name="title">
 
-        <label for="read">Read</label>
-        <input type="text" id="read" name="read">
+        <label for="read">Did you read it?</label>
+        <input type="checkbox" id="read" name="read">
 
-        <button type="submit" id="submit" onclick="submitFunction()">Submit</button>
+        <button type="submit" id="submit">Add book</button>
+        <button id="deleteAll">Delete books</button>
     </form>
 
     <p id="libs-container"></p>
 
 
 
-    <script src="script.js"></script>
+    <script src="script3.js"></script>
 </body>
 </html>
