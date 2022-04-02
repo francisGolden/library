@@ -10,7 +10,7 @@ html, body {
 
 #layout {
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 20px;
+    grid-template-rows: 0.5fr 1fr 1fr 50px;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -39,7 +39,7 @@ html, body {
 
 
 .shelf {
-    border-bottom: 1px solid black;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,8 +47,8 @@ html, body {
     gap: 5px;
     transition: 0.1s;
     background-color: #F56D91;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 6px;
+    padding: 7px;
     width: 40vw;
     min-width: fit-content;
 }
