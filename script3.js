@@ -54,7 +54,7 @@ submit.addEventListener("click", function(e) {
         
     }
     
-    contain.innerHTML += `<button class="property">Delete book</button>`
+    // contain.innerHTML += `<button class="property">Delete book</button>`
 
     // for every element in myLibrary, create as many rows
     libs.style.gridTemplateRows = `repeat(${myLibrary.length}, 1fr)`;
@@ -71,3 +71,9 @@ deleteAll = document.querySelector("#deleteAll")
 deleteAll.addEventListener("click", function() {
     myLibrary = []
 })
+
+addNumber = () => {
+    for (i = 0; i<myLibrary.length; i++) {
+
+    }
+}
