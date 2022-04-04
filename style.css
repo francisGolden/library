@@ -2,7 +2,10 @@ html, body {
     font-family: -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #8D8DAA;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
     margin: 0px;
     max-height: 100%;
     max-width: 100%;
@@ -16,8 +19,6 @@ html, body {
     justify-content: center;
     /* align-items: center; */
     gap: 5px;
-    
-    
 }
 
 .layout-sections {
@@ -46,23 +47,37 @@ html, body {
     align-items: center;
     gap: 5px;
     transition: 0.1s;
-    background-color: #F56D91;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     border-radius: 6px;
-    padding: 7px;
+    padding: 10px;
     width: 40vw;
     min-width: fit-content;
+    font-size: 20px;
+}
+
+.shelf button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 h1 {
-    font-size: 50px;
-    
+    font-size: 60px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     color: #F7F5F2;
     
 }
 
 input {
     border-radius: 5px;
-    
+    font-size: 20px;
+    border: 0;
+    padding: 7px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 form {
@@ -74,20 +89,27 @@ form {
     justify-content: center;
     align-items: center;
     gap: 1.2vh;
+    border: 0;
 }
 
 form button {
     height: fit-content;
     width: fit-content;
+    font-size: 20px;
+    background-color: white;
+    border: 0;
+    padding: 5px;
+    
 }
 
 .property {
-    border-right: 1px solid black;
+    border-right: 2px solid black;
     /* width: 25%;
     height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 #libs-container button {
