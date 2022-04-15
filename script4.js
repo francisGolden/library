@@ -4,13 +4,19 @@ myLibrary = []
 
 libs = document.querySelector("#libs-container")
 
-
-function Book(author, title, pages) {
+class Book {
+  constructor(author, title, pages){
     this.author = author
     this.title = title
     this.pages = pages
+  }
 }
 
+// function Book(author, title, pages) {
+//     this.author = author
+//     this.title = title
+//     this.pages = pages
+// }
 
 log = console.log
 
